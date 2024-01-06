@@ -3,3 +3,121 @@
   border: 0;
   box-sizing: border-box;
 }
+
+body {
+  min-height: 100dvh;
+  background-color: #ededf7;
+}
+
+.toast {
+  background-color: #6f87dd;
+  width: 620px;
+  border-radius: 50px;
+  padding: 1rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  color: #e4ecff;
+}
+
+.toast a {
+  color: #e4ecff;
+}
+
+.toast a:hover,
+.toast a:active {
+  color: blueviolet;
+}
+
+.close-button {
+  background-color: #5d78d3;
+  border: none;
+  height: 3rem;
+  width: 3rem;
+  align-items: center;
+  align-self: center;
+  border-radius: 50%;
+  color: #e4ecff;
+  font-size: 1.5rem;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+.main {
+  width: 620px;
+  margin: 6rem auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.card {
+  position: relative;
+  padding: 2rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 12px;
+}
+
+.cookie-image {
+  margin: 1rem auto;
+  display: block;
+}
+
+#card-close-button {
+  position: absolute;
+  right: 0;
+  border: 3px solid #f5f6fa;
+  margin: 0rem 2rem;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  background-color: inherit;
+}
+
+.tos-p {
+  margin: 2rem;
+  text-align: center;
+  line-height: 1.25rem;
+}
+
+.tos-p a {
+  color: black;
+}
+
+.tos-p a:hover,
+.tos-p a:active {
+  color: blueviolet;
+}
+
+.button-container {
+  margin: auto;
+  display: block;
+  text-align: center;
+  color: #3a51c1;
+}
+
+.accept-button,
+.decline-button {
+  display: inline-block;
+  padding: 12px 16px;
+  border: 1px solid #3a51c1;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 1.25rem;
+  margin: 2rem 0.15rem;
+  font-weight: 400;
+  transition: 0.2s all ease-in-out;
+}
+
+.accept-button:hover,
+.decline-button:hover {
+  background-color: rgb(193, 195, 247);
+  transform: scale(1.05);
+}
+
+.cookie-settings-a {
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 3rem;
+}
