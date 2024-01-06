@@ -72,6 +72,7 @@ body {
   border-radius: 50%;
   font-size: 1.5rem;
   background-color: inherit;
+  cursor: pointer;
 }
 
 .tos-p {
